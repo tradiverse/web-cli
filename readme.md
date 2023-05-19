@@ -1,6 +1,6 @@
 # Tradiverse Web CLI
 
-A automatically generated Web CLI for [Space Traders](https://spacetraders.io/)
+A simple Web CLI for [Space Traders](https://spacetraders.io/) powered by [@tradiverse/cli-lib](https://www.npmjs.com/package/@tradiverse/cli-lib) an automatically generated cli library.
 
 <img src="web-cli-demo.gif">
 
