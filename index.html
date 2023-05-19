@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="main.js"></script>
+    <style>
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            overflow: none;
+            font-family: Courier, 'Courier New', monospace;
+            background: black;
+            color: #00FF00;            
+        }
+
+        #viewport {
+            height: 100vh;
+            width: 100%;
+        }
+
+        #cli-terminal {
+            width: 100%;
+            height: calc(100% - 40px);
+            overflow-y: scroll;
+            background: black;
+            color: #00FF00;            
+        }
+
+        #cli-terminal div {
+            white-space: pre;
+            background: rgba(100, 100, 100, 0.2);
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        #cli-input {
+            width: 100%;
+            height: 40px;
+            background: black;
+            color: #00FF00;              
+            border: none;   
+            padding: 0 10px;      
+        }
+        #cli-input:focus {
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewport">
+        <div id="cli-terminal"></div>
+        <input type="text" id="cli-input" autofocus>
+    </div>
+</body>
+
+</html>

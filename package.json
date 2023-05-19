@@ -1,0 +1,17 @@
+{
+  "name": "@tradiverse/web-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tradiverse/cli-lib": "^1.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
